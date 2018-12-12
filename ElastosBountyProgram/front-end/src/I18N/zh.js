@@ -389,7 +389,7 @@ const zh = {
     'project.detail.approve': '同意',
     'project.detail.disapprove': '拒绝',
     'project.detail.withdraw_application': '撤回申请',
-    'project.detail.popup.leave_question': '你确定要离开团队吗?',
+    'project.detail.popup.leave_question': '您确定要离开团队吗?',
     'project.detail.popup.leave_team': '离开团队',
     'project.detail.popup.applied': '已申请',
     'project.detail.popup.join_team': '加入团队',
@@ -906,7 +906,7 @@ const zh = {
     'from.TaskCreateForm.taskGoals.max': '任务的目的描述过长',
     'from.TaskCreateForm.taskLink.required': '请输入资料的链接',
     'from.TaskCreateForm.taskLocation.required': '请输入地点',
-    'from.TaskCreateForm.taskCandLimit.required': '你必须设定期限',
+    'from.TaskCreateForm.taskCandLimit.required': '您必须设定期限',
     'from.TaskCreateForm.uploadtext': '点击上传',
     'from.TaskCreateForm.problem.max': '过长',
     'from.TaskCreateForm.label.name': '名称',
@@ -1016,7 +1016,7 @@ const zh = {
     'from.UserEditForm.username.required': '用户名为必填项',
     'from.UserEditForm.firstName.required': '名字为必填项',
     'from.UserEditForm.lastName.required': '姓氏为必填项',
-    'from.UserEditForm.country.required': '请选择你的国家',
+    'from.UserEditForm.country.required': '请选择您的国家',
     'from.UserEditForm.walletAddress.len': '地址长度错误',
     'from.UserEditForm.timezone.placeholder': '选择时区...',
     'from.UserEditForm.telegram.min': '请输入至少4个字符',
@@ -1192,12 +1192,12 @@ zh[`taskStatus.${TASK_STATUS.DISTRIBUTED}`] = '已结算'
 zh[`taskStatus.${TASK_STATUS.CANCELED}`] = '已取消'
 zh[`taskStatus.${TASK_STATUS.EXPIRED}`] = '已过期'
 
-zh[`cvoteStatus.${CVOTE_STATUS.DRAFT}`] = 'DRAFT'
-zh[`cvoteStatus.${CVOTE_STATUS.PROPOSED}`] = 'PROPOSED'
-zh[`cvoteStatus.${CVOTE_STATUS.ACTIVE}`] = 'ACTIVE'
-zh[`cvoteStatus.${CVOTE_STATUS.REJECT}`] = 'REJECT'
-zh[`cvoteStatus.${CVOTE_STATUS.FINAL}`] = 'FINAL'
-zh[`cvoteStatus.${CVOTE_STATUS.DEFERRED}`] = 'DEFERRED'
+zh[`cvoteStatus.${CVOTE_STATUS.DRAFT}`] = '草案'
+zh[`cvoteStatus.${CVOTE_STATUS.PROPOSED}`] = '拟议'
+zh[`cvoteStatus.${CVOTE_STATUS.ACTIVE}`] = '待投票'
+zh[`cvoteStatus.${CVOTE_STATUS.REJECT}`] = '已拒绝'
+zh[`cvoteStatus.${CVOTE_STATUS.FINAL}`] = '最终决议'
+zh[`cvoteStatus.${CVOTE_STATUS.DEFERRED}`] = '延期的'
 
 
 export default zh
